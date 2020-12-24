@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "react-nativejs-code-sharing",
   "version": "1.0.0",
   "description": "Code sharing between ReactJs and React Native",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/SushritPasupuleti/react-nativejs-code-sharing/issues"
   },
-  "homepage": "https://github.com/SushritPasupuleti/react-nativejs-code-sharing#readme"
+  "homepage": "https://github.com/SushritPasupuleti/react-nativejs-code-sharing#readme",
+  "workspaces": [
+    "packages/*"
+  ]
 }
